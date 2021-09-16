@@ -1,0 +1,22 @@
+{
+  "name": "cadastro-pacientes",
+  "version": "1.0.0",
+  "description": "cria aplicação serverless aws `sls create --template aws-nodejs --path cadastro-pacientes`",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fixtures": "./bin/fixtures"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.989.0",
+    "uuid": "^8.3.2"
+  }
+}
